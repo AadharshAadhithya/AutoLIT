@@ -1,0 +1,20 @@
+2023-03-12 23:21:39,462 - elsapy.elsclient - INFO - Module loaded.
+2023-03-12 23:22:53,570 - elsapy.elsentity - INFO - Module loaded.
+2023-03-12 23:22:53,578 - elsapy.utils - INFO - Module loaded.
+2023-03-12 23:22:53,579 - elsapy.elsprofile - INFO - Module loaded.
+2023-03-12 23:22:53,579 - elsapy.elsdoc - INFO - Module loaded.
+2023-03-12 23:22:53,579 - elsapy.elssearch - INFO - Module loaded.
+2023-03-12 23:23:33,878 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=star+trek+vs+star+wars
+2023-03-12 23:24:47,963 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=AFFIL%28dartmouth%29+AND+AUTHOR-NAME%28lewis%29+AND+PUBYEAR+%3E+2011
+2023-03-12 23:24:51,011 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=25&count=25&query=AFFIL%28dartmouth%29+AND+AUTHOR-NAME%28lewis%29+AND+PUBYEAR+%3E+2011
+2023-03-12 23:24:54,049 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=50&count=25&query=AFFIL%28dartmouth%29+AND+AUTHOR-NAME%28lewis%29+AND+PUBYEAR+%3E+2011
+2023-03-12 23:24:56,984 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=75&count=25&query=AFFIL%28dartmouth%29+AND+AUTHOR-NAME%28lewis%29+AND+PUBYEAR+%3E+2011
+2023-03-12 23:24:59,866 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=100&count=25&query=AFFIL%28dartmouth%29+AND+AUTHOR-NAME%28lewis%29+AND+PUBYEAR+%3E+2011
+2023-03-12 23:25:05,833 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=AFFIL%28dartmouth%29+AND+AUTHOR-NAME%28lewis%29+AND+PUBYEAR+%3E+2011
+2023-03-12 23:25:06,962 - elsapy.utils - INFO - Converting prism:coverDate
+2023-03-13 12:58:51,511 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=star+trek+vs+star+wars
+2023-03-13 12:58:53,024 - elsapy.utils - INFO - Converting prism:coverDate
+2023-03-13 12:58:59,075 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=star+trek+vs+star+wars
+2023-03-13 12:59:00,643 - elsapy.utils - INFO - Converting prism:coverDate
+2023-03-13 12:59:04,748 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=AFFIL%28dartmouth%29+AND+AUTHOR-NAME%28lewis%29+AND+PUBYEAR+%3E+2011
+2023-03-13 12:59:05,936 - elsapy.utils - INFO - Converting prism:coverDate
