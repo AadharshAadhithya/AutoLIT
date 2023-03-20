@@ -15,8 +15,9 @@ class Config:
         self.DB_PATH = os.environ["DB_PATH"] #"sqlite:///database.db" 
 
         if not os.path.exists(os.environ["PDF_PATH"]):
-            self.PDF_PATH = os.environ["PDF_PATH"]
             os.makedirs(self.PDF_PATH )
+        
+        self.PDF_PATH = os.environ["PDF_PATH"]
 
 
 
