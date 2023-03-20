@@ -1,7 +1,7 @@
 from dotenv import load_dotenv
 import os
 
-from sqlalchemy import create_engine
+from sqlalchemy import create_engine,MetaData
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
@@ -12,15 +12,12 @@ class Config:
     def __init__(self):
         self.OPENAI_API_KEY = os.environ["OPENAI_API_KEY"]
         self.SCOPUS_API  = os.environ["SCOPUS_API"]
+        self.DB_PATH = os.environ["DB_PATH"] #"sqlite:///database.db" 
 
 
 
-# Database Configurations
 
-engine = create_engine('sqlite:///database.db')
-Base = declarative_base()
-Session = sessionmaker(bind=engine)
-session = Session()
+
 
 #Exports
-config = Config()
+settings = Config()

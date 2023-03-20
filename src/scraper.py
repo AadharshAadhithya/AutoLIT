@@ -3,7 +3,7 @@ from scholarly import scholarly
 
 class Scraper:
 
-    def __init__(self,gsq,gsq_limit=25,sq=None) :
+    def __init__(self,gsq,gsq_limit=1,sq=None) :
         """
         Scrapes google and scopus for given queries and returns relevent informations
 
