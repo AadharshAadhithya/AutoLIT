@@ -12,15 +12,15 @@ if __name__ == "__main__":
     scraper.scrape_google_scholar()
 
     
-    res = next(scraper.gs_results)
+    # res = next(scraper.gs_results)
 
-    paper = Paper(res)
+    # paper = Paper(res)
 
-    session.add(paper)
+    # session.add(paper)
 
-    session.commit()
+    # session.commit()
 
-    papers = Paper.query.all()
 
-    for paper in papers:
-        print(paper.title)
+
+    # for paper in papers:
+    #     print(paper.title)
