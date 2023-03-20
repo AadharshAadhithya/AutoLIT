@@ -10,6 +10,8 @@ if __name__ == "__main__":
     gs_query = "Covid-19 Forecasting"
     scraper = Scraper(gsq=gs_query)
     scraper.scrape_google_scholar()
+
+    
     res = next(scraper.gs_results)
 
     paper = Paper(res)
