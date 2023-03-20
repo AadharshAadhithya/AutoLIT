@@ -1,1 +1,4 @@
 scholarly
+alembic
+sqlite3
+sqlalchemy
